@@ -6,60 +6,60 @@
 
 ## 0. Syllabus broken into subtopics
 
-### Unit 1 – Introduction (10 hours)
+### [Unit 1 – Introduction (10 hours)](#unit-1--introduction)
 
-1. Evolution of Computers
-2. Stored Program Concept
-3. Von‑Neumann Architecture
-4. Information Representation and Codes
-5. Building Blocks of Computers
+   - [1.1 Evolution of Computers](#11-evolution-of-computers)
+   - [1.2 Stored Program Concept](#12-stored-program-concept)
+   - [1.3 Von‑Neumann Architecture](#13-vonneumann-architecture)
+   - [1.4 Information Representation and Codes](#14-information-representation-and-codes)
+   - [1.5 Building Blocks of Computers](#15-building-blocks-of-computers)
 
-### Unit 2 – Register Transfer and Microoperations (15 hours)
+### [Unit 2 – Register Transfer and Microoperations (15 hours)](#unit-2--register-transfer-and-microoperations)
 
-1. Concept of Bus
-2. Data Movement Among Registers
-3. RTL: A Language for Conditional Data Transfer
-4. Data Movement From/To Memory
-5. Arithmetic Operations with Register Transfer
-6. Logical Operations with Register Transfer
-7. Timing in Register Transfer
+   - [2.1 Concept of Bus](#21-concept-of-bus)
+   - [2.2 Data Movement Among Registers](#22-data-movement-among-registers)
+   - [2.3 RTL: A Language for Conditional Data Transfer](#23-a-language-to-represent-conditional-data-transfer-rtl)
+   - [2.4 Data Movement From/To Memory](#24-data-movement-fromto-memory)
+   - [2.5 Arithmetic Operations with Register Transfer](#25-arithmetic-operations-with-register-transfer)
+   - [2.6 Logical Operations with Register Transfer](#26-logical-operations-with-register-transfer)
+   - [2.7 Timing in Register Transfer](#27-timing-in-register-transfer)
 
-### Unit 3 – CPU Architecture (15 hours)
+### [Unit 3 – CPU Architecture (15 hours)](#unit-3--cpu-architecture)
 
-1. Instruction Format
-2. Instruction Execution
-3. Fetch and Execution Cycles
-4. CPU Organization with Large Register Sets
-5. Stacks
-6. Handling of Interrupts
-7. Handling of Subroutines
-8. Instruction Pipelining – Stages
-9. Pipeline Hazards
-10. Methods to Remove/Reduce Hazards
+   - [3.1 Instruction Format](#31-instruction-format)
+   - [3.2 Instruction Execution](#32-instruction-execution)
+   - [3.3 Fetch and Execution Cycles](#33-fetch-and-execution-cycles)
+   - [3.4 CPU Organization with Large Register Sets](#34-cpu-organization-with-large-register-sets)
+   - [3.5 Stacks](#35-stacks)
+   - [3.6 Handling of Interrupts](#36-handling-of-interrupts)
+   - [3.7 Handling of Subroutines](#37-handling-of-subroutines)
+   - [3.8 Instruction Pipelining – Stages](#38-instruction-pipelining--stages)
+   - [3.9 Pipeline Hazards](#39-pipeline-hazards)
+   - [3.10 Methods to Remove/Reduce Hazards](#310-methods-to-removereduce-hazards)
 
-### Unit 4 – Micro‑programmed Control Unit (5 hours)
+### [Unit 4 – Micro‑programmed Control Unit (5 hours)](#unit-4--microprogrammed-control-unit)
 
-1. Basic Organization of Micro‑programmed Controller
-2. Horizontal Microinstruction Format
-3. Vertical Microinstruction Format
-4. Address Sequencer
+   - [4.1 Basic Organization of Micro‑programmed Controller](#41-basic-organization-of-microprogrammed-controller)
+   - [4.2 Horizontal Microinstruction Format](#42-horizontal-vs-vertical-microinstruction-formats)
+   - [4.3 Vertical Microinstruction Format](#43-address-sequencer)
+   - 4.4 Address Sequencer
 
-### Unit 5 – I/O Organization (5 hours)
+### [Unit 5 – I/O Organization (5 hours)](#unit-5--io-organization)
 
-1. Strobe‑based Communication
-2. Handshake‑based Communication
-3. Vector Interrupt
-4. Priority Interrupt
-5. DMA‑based Transfer
+   - [5.1 Strobe‑based Communication](#51-strobebased-communication)
+   - [5.2 Handshake‑based Communication](#52-handshakebased-communication)
+   - [5.3 Vector Interrupt](#53-vector-interrupt)
+   - [5.4 Priority Interrupt](#54-priority-interrupt)
+   - [5.5 DMA‑based Transfer](#55-dmabased-transfer)
 
-### Unit 6 – Programming the Basic Computer (10 hours)
+### [Unit 6 – Programming the Basic Computer (10 hours)](#unit-6--programming-the-basic-computer)
 
-1. Instruction Formats
-2. Addressing Modes
-3. Instruction Codes
-4. Machine Language
-5. Assembly Language
-6. Input‑Output Programming
+   - [6.1 Instruction Formats](#61-instruction-formats-basic-computer)
+   - [6.2 Addressing Modes](#62-addressing-modes)
+   - [6.3 Instruction Codes](#63-instruction-codes)
+   - [6.4 Machine Language](#64-machine-language)
+   - [6.5 Assembly Language](#65-assembly-language)
+   - [6.6 Input‑Output Programming](#66-inputoutput-programming)
 
 ***
 
@@ -956,6 +956,3 @@ WAIT_OUT: IN  STATUS_OUT    ; read status of output device
 ```
 
 Here `IN` and `OUT` are I/O instructions; the exact syntax will differ per architecture but idea is same: poll status then transfer data.
-
-
-

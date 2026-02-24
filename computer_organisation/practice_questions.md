@@ -1,5 +1,16 @@
 # Practice Questions with Answers
 > Major/DS Course (Core): COMP 5012 (Theory)- Computer Organization
+
+## 0. Index
+
+- [Unit 1 – Introduction](#unit-1--introduction)
+- [Unit 2 – Register Transfer and Microoperations](#unit-2--register-transfer-and-microoperations)
+- [Unit 3 – CPU Architecture](#unit-3--cpu-architecture)
+- [Unit 4 – Micro‑programmed Control Unit](#unit-4--microprogrammed-control-unit)
+- [Unit 5 – I/O Organization](#unit-5--io-organization)
+- [Unit 6 – Programming the Basic Computer](#unit-6--programming-the-basic-computer)
+
+***
 ## Unit 1 – Introduction
 
 ### 2‑mark questions
@@ -365,5 +376,3 @@ SUM:  .WORD 00H
     - `STORE SUM`: direct addressing, stores AC into M[SUM].
 - Show generic one‑address instruction format and how opcode and address field are filled for each instruction.
 - Mention that labels NUM1, NUM2, SUM are converted by assembler into actual addresses in the instruction fields.
-
-
