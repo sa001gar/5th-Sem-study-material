@@ -10,7 +10,7 @@ Welcome to the 5th Semester Study Materials repository! This repository contains
 
 Use the links below to easily navigate to the desired course materials:
 
-### 1. Software Engineering (COMP 5013) **[NEW]**
+### 1. Software Engineering (COMP 5013) ![NEW](https://img.shields.io/badge/NEW-brightgreen?style=flat-square)
 - **[Complete Topic Index (56 Topics)](./software-engineering/index.md)** -- Organized into 12 chapters with mermaid diagrams, tables, and structured formatting.
 
 <details>
